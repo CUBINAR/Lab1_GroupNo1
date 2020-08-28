@@ -8,7 +8,7 @@ function validate() {
   let confirm = new Array();
 
   if (eventType == 0) {
-    errorText = "Please Complete the Form\nEvent Type is Missing";
+    errorText = "Please Complete the Form\nEvent Type is Missing.";
     alert(errorText);
     return false;
   } else {
@@ -16,7 +16,7 @@ function validate() {
   }
 
   if (eventTitle <= 0) {
-    errorText = "Please Complete the Form\nEvent Title is Missing";
+    errorText = "Please Complete the Form\nEvent Title is Missing.";
     alert(errorText);
     return false;
   } else {
@@ -24,7 +24,7 @@ function validate() {
   }
 
   if (eventDates <= 0 || eventToDates <= 0) {
-    errorText = "Please Complete the Form\nEvent Dates is Missing";
+    errorText = "Please Complete the Form\nEvent Dates is/are Missing.";
     alert(errorText);
     return false;
   } else {
@@ -34,31 +34,31 @@ function validate() {
   }
 
   if (postingDate <= 0) {
-    errorText = "Please Complete the Form\nPosting Date is Missing";
+    errorText = "Please Complete the Form\nPosting Date is Missing.";
     alert(errorText);
     return false;
   } else {
-    confirm.push("The Posting Date will be on " + postingDate);
+    confirm.push("The Posting Date will be on: " + postingDate);
   }
 
   let cb = document.getElementsByClassName("cb");
   let print = new Array();
   if (cb[0].checked) {
-    print.push("Registration is Required");
+    print.push("Registration is Required.");
   }
   if (cb[1].checked) {
-    print.push("The event is associated with any Family Programs");
+    print.push("The event is associated with a Family Program.");
   }
   if (cb[2].checked) {
     print.push(
-      "Upon Registration Completion, The Users will Receive an Auto Generated Email"
+      "Upon Registration Completion, The Users will Receive an Auto Generated Email."
     );
   }
   if (cb[3].checked) {
-    print.push("There is a Point of Contact");
+    print.push("There is a Point of Contact.");
   }
   if (cb[4].checked) {
-    print.push("There is a Hosting Command Point of Contact");
+    print.push("There is a Hosting Command Point of Contact.");
   }
 
   var list = "";
