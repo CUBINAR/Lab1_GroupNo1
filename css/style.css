@@ -1,5 +1,5 @@
 body {
-  background-color: #e49f15;
+  background-color: #ffffff;
 }
 
 label.Block {
@@ -50,7 +50,7 @@ fieldset {
 }
 
 ::placeholder {
-  text-align: center;
+  text-align: left;
 }
 
 .container {
