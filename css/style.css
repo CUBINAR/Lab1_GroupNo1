@@ -1,0 +1,77 @@
+body {
+  background-color: #e4d9c3;
+}
+
+label.Block {
+  display: block;
+  position: relative;
+  margin: 10px;
+}
+
+label.Block2 {
+  display: inline;
+  position: relative;
+  left: 10px;
+}
+
+label.Block2 input {
+  position: relative;
+  left: 63px;
+  background-color: rgba(222, 184, 135, 0.486);
+  border-radius: 3px;
+}
+
+.type1 {
+  position: absolute;
+  left: 149px;
+  background-color: rgba(222, 184, 135, 0.486);
+  border-radius: 3px;
+}
+
+#submit {
+  margin-top: 5px;
+  margin-right: 25px;
+  background-color: rgba(222, 184, 135, 0.486);
+  border-radius: 3px;
+}
+
+.to {
+  margin-left: 62px;
+  margin-right: -60px;
+}
+
+#reset {
+  background-color: rgba(222, 184, 135, 0.486);
+  border-radius: 3px;
+}
+
+fieldset {
+  background-color: bisque;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.container {
+  margin: 20px auto;
+  width: 50%;
+  margin-top: 50px;
+}
+
+address {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  width: 150px;
+}
+
+#eventTitle {
+  width: 344px;
+}
